@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/njons/react-front/issues"
   },
-  "homepage": "https://github.com/njons/react-front#readme"
+  "homepage": "https://github.com/njons/react-front#readme",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
 }
