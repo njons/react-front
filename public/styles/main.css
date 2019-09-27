@@ -1,7 +1,19 @@
 body {
   background: yellow;
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  color: #003049;
+  font-weight: 700;
 }
 
 .container {
   background: hotpink;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
 }
