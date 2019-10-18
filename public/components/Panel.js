@@ -1,6 +1,7 @@
 import React from "react";
 
 class Panel extends React.Component {
+  // the <button> comes with an onClick event that I have set to the requestProp functionality
   render() {
     return (
       <div id="panel">
@@ -8,11 +9,13 @@ class Panel extends React.Component {
 
         <div id="request">
           {/* <h2> Make a request </h2> */}
-          <button> Make a request </button>
+          <button onClick={this.props.requestData}> API request </button>
         </div>
         <div id="response">
           <h2> Get the response</h2>
-          <div id="data"></div>
+          <div id="data">
+          {/* data goes here */}
+          </div>
         </div>
       </div>
     );
